@@ -24,6 +24,15 @@ heuristic and exact computations.
 
 Functions to run benchmark instances can be found in benchmarking.py.
 Benchmarking results can be found in benchmark_runs.
-Functions to plot results are implemented in plotting.py, and examples of
-notebooks containing plots can be found in plot.ipynb and
+
+## Experiments
+
+Functions to plot results are implemented in plotting.py.
+Notebooks with plots on experimental results can be found in
+
 experiments/experiments.ipynb
+
+and 
+
+plot.ipynb
+
