@@ -16,8 +16,7 @@ The models that we use for benchmarks can be found in the directories
 dtmc_benchmarks and mdp_benchmarks.
 They have been constructed by running the gen_model_files.sh script.
 
-## Computing witnessing subsystems
-
+## Computing Farkas certificates
 The files DTMC.py, DTMC_gurobi.py, MDP.py, MDP_gurobi.py implement both
 heuristic and exact subsystem computations.
 
