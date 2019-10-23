@@ -1,0 +1,316 @@
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.1e-05
+Model Checking result of original system: 2.64195e-05
+Time for model checking: 0.021294 secs
+Time of counter example computation: 1.16191 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.2e-05
+Model Checking result of original system: 2.64195e-05
+Time for model checking: 0.021748 secs
+Time of counter example computation: 1.1618 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.3e-05
+Model Checking result of original system: 2.64195e-05
+Time for model checking: 0.021603 secs
+Time of counter example computation: 1.15337 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.4e-05
+Model Checking result of original system: 2.64195e-05
+Time for model checking: 0.021843 secs
+Time of counter example computation: 1.1644 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.5e-05
+Model Checking result of original system: 2.64195e-05
+Time for model checking: 0.022202 secs
+Time of counter example computation: 1.16656 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.6e-05
+Model Checking result of original system: 2.64195e-05
+Time for model checking: 0.022413 secs
+Time of counter example computation: 1.15841 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.1e-05
+Model Checking result of original system: 2.63748e-05
+Time for model checking: 0.096138 secs
+Time of counter example computation: 5.26016 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.2e-05
+Model Checking result of original system: 2.63748e-05
+Time for model checking: 0.095014 secs
+Time of counter example computation: 5.26315 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.3e-05
+Model Checking result of original system: 2.63748e-05
+Time for model checking: 0.095383 secs
+Time of counter example computation: 5.21548 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.4e-05
+Model Checking result of original system: 2.63748e-05
+Time for model checking: 0.096208 secs
+Time of counter example computation: 5.28292 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.5e-05
+Model Checking result of original system: 2.63748e-05
+Time for model checking: 0.093953 secs
+Time of counter example computation: 5.24057 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.6e-05
+Model Checking result of original system: 2.63748e-05
+Time for model checking: 0.094882 secs
+Time of counter example computation: 5.2572 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.1e-05
+Model Checking result of original system: 2.61081e-05
+Time for model checking: 1.62396 secs
+Time of counter example computation: 119.138 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.2e-05
+Model Checking result of original system: 2.61081e-05
+Time for model checking: 1.6111 secs
+Time of counter example computation: 118.59 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.3e-05
+Model Checking result of original system: 2.61081e-05
+Time for model checking: 1.60744 secs
+Time of counter example computation: 119.046 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.4e-05
+Model Checking result of original system: 2.61081e-05
+Time for model checking: 1.62339 secs
+Time of counter example computation: 119.652 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.5e-05
+Model Checking result of original system: 2.61081e-05
+Time for model checking: 1.62404 secs
+Time of counter example computation: 118.856 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpvp8c03rr
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/brp_files/brp-512-2.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 2.6e-05
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 21510
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.6e-05
+Model Checking result of original system: 2.61081e-05
+Time for model checking: 1.63065 secs
+Time of counter example computation: 120.235 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0

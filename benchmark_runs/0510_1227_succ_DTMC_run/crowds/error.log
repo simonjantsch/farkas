@@ -1,0 +1,210 @@
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmp1af70dcm
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-2-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.52
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 2039
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmprx8blnic
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-2-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.53
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 2039
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmp41m3ln9d
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-4-7.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.28
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 15032
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmp1dvt8btb
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-4-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.28
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 25577
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpjir5teuz
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-4-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.29
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 25577
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmp8tji31hn
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-4-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.3
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 25577
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpnj7x7gc6
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-4-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.31
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 25577
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmp3df5kf8t
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-4-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.32
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 25577
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpwtoolh8l
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-4-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.33
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 25577
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpfmj_ebip
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-4-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.34
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 25577
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpjeiq2388
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-5-7.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.23
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 37292
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpz_s9rzbp
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-5-7.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.24
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 37292
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpyw9r0kci
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-5-7.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.25
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 37292
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmp4wx0wg9c
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-5-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.23
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 68741
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpc3ph9oxj
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-5-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.24
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 68741
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmp39kqjkng
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-5-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.25
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 68741
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpyf7eqhzm
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-5-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.26
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 68741
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpdeh7ep_w
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-5-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.27
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 68741
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpcc867xyk
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-5-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.28
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 68741
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmp_mj80246
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-5-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.29
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 68741
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpwbqcvq0u
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/crowds_files/crowds-5-8.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 0.3
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 68741
