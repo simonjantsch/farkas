@@ -40,7 +40,7 @@ def plot_states(csv_file_path,heur_iter_vals,xmode=None,ymode=None,lower=False,p
 
     colors = dict([("y exact","green"),("z exact","purple"),("y form","orange"),("z form","blue"),("local","brown"),("global","black"),("prmax","orange"),("prmax exact", "green"),("prmin","blue"),("prmin exact","green"),("prmax minimal","purple")])
     markers = dict([("y exact","x"),("z exact","."),("y form","x"),("z form","."),("local","d"),("global","s"),("prmax","x"),("prmax exact", "+"),("prmin","v"),("prmin exact","x"),("prmax minimal","v")])
-    legend_names = dict([("y form",r'$P^{max}$ QS'),("z form",r'$P^{min}$ QS'),("prmax", r'$P^{max}$ QS'),("prmin", r'$P^{min}$ QS'), ("prmax exact", "$P^{max}$ exact"), ("prmax minimal", "ltlsubsys exact"),("prmin exact","$P^{min}$ exact")])
+    legend_names = dict([("y exact","$P^{max}$ exact"),("z exact","$P^{min}$ exact"),("y form",r'$P^{max}$ QS'),("z form",r'$P^{min}$ QS'),("prmax", r'$P^{max}$ QS'),("prmin", r'$P^{min}$ QS'), ("prmax exact", "$P^{max}$ exact"), ("prmax minimal", "ltlsubsys exact"),("prmin exact","$P^{min}$ exact")])
     exact_modes = ["y exact", "z exact", "prmax exact", "prmin exact", "prmax minimal"]
     prmin_modes = ["z exact", "z form", "prmin", "prmin exact"]
     prmax_modes = ["y form", "y exact", "prmax exact", "prmax", "prmax minimal"]
@@ -125,8 +125,8 @@ def plot_times(csv_file_path,heur_iter_vals,to_pdf=False,prmin=True,prmax=True,p
     plt.yticks(size = size_val)
     plt.grid(True)
 
-    colors = dict([("y exact","purple"),("z exact","green"),("y form","orange"),("z form","blue"),("local","brown"),("global","black"),("prmax","orange"),("prmax exact", "purple"),("prmin","blue"),("prmin exact","green"),("prmax minimal","brown")])
-    legend_names = dict([("y form",r'$P^{max}$ QS'),("z form",r'$P^{min}$ QS'),("prmax", r'$P^{max}$ QS'),("prmin", r'$P^{min}$ QS'), ("prmax exact", "$P^{max}$ exact"), ("prmax minimal", "ltlsubsys exact"),("prmin exact","$P^{min}$ exact")])
+    colors = dict([("y exact","green"),("z exact","purple"),("y form","orange"),("z form","blue"),("local","brown"),("global","black"),("prmax","orange"),("prmax exact", "green"),("prmin","blue"),("prmin exact","green"),("prmax minimal","purple")])
+    legend_names = dict([("y exact","$P^{max}$ exact"),("z exact","$P^{min}$ exact"),("y form",r'$P^{max}$ QS'),("z form",r'$P^{min}$ QS'),("prmax", r'$P^{max}$ QS'),("prmin", r'$P^{min}$ QS'), ("prmax exact", "$P^{max}$ exact"), ("prmax minimal", "ltlsubsys exact"),("prmin exact","$P^{min}$ exact")])
     markers = dict([("y exact","x"),("z exact","."),("y form","x"),("z form","."),("local","d"),("global","s"),("prmax","x"),("prmax exact", "+"),("prmin","v"),("prmin exact","x"),("prmax minimal","v")])
     exact_modes = ["y exact", "z exact", "prmax exact", "prmin exact", "prmax minimal"]
     prmin_modes = ["z exact", "z form", "prmin", "prmin exact"]
