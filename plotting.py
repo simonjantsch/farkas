@@ -80,7 +80,7 @@ def plot_states(csv_file_path,heur_iter_vals,xmode=None,ymode=None,lower=False,p
                 else:
                     color = colors_iter[index]
                 sub_tab = table[table['heur_iter'].astype(str) == str(heur_val)].sort_values(by=['threshold'])
-                ax1.plot(sub_tab['threshold'],sub_tab['states'],marker=markers[mode],ms=marker_size,linestyle="dashed",linewidth=1.2,color=color,label='_nolegend') #,label=name+r'$_' + str(heur_val) + '$')
+                ax1.plot(sub_tab['threshold'],sub_tab['states'],marker=markers[mode],ms=marker_size,linestyle="dashed",linewidth=1.2,color=color,label=name+r'$_' + str(heur_val) + '$')
                 index += 1
 
     plt.legend(prop={'size':size_val-5})
@@ -126,7 +126,7 @@ def plot_times(csv_file_path,heur_iter_vals,to_pdf=False,prmin=True,prmax=True,p
     plt.grid(True)
 
     colors = dict([("y exact","purple"),("z exact","green"),("y form","orange"),("z form","blue"),("local","brown"),("global","black"),("prmax","orange"),("prmax exact", "purple"),("prmin","blue"),("prmin exact","green"),("prmax minimal","brown")])
-    legend_names = dict([("y form",r'$P^{max}$ QS$_2$'),("z form",r'$P^{min}$ QS$_2$'),("prmax", r'$P^{max}$ QS$_2$'),("prmin", r'$P^{min}$ QS$_2$ '), ("prmax exact", "$P^{max}$ exact"), ("prmax minimal", "ltlsubsys exact"),("prmin exact","$P^{min}$ exact")])
+    legend_names = dict([("y form",r'$P^{max}$ QS'),("z form",r'$P^{min}$ QS'),("prmax", r'$P^{max}$ QS'),("prmin", r'$P^{min}$ QS'), ("prmax exact", "$P^{max}$ exact"), ("prmax minimal", "ltlsubsys exact"),("prmin exact","$P^{min}$ exact")])
     markers = dict([("y exact","x"),("z exact","."),("y form","x"),("z form","."),("local","d"),("global","s"),("prmax","x"),("prmax exact", "+"),("prmin","v"),("prmin exact","x"),("prmax minimal","v")])
     exact_modes = ["y exact", "z exact", "prmax exact", "prmin exact", "prmax minimal"]
     prmin_modes = ["z exact", "z form", "prmin", "prmin exact"]
