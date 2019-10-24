@@ -16,15 +16,23 @@ The models that we use for benchmarks can be found in the directories
 dtmc_benchmarks and mdp_benchmarks.
 They have been constructed by running the gen_model_files.sh script.
 
-## Computing witnessing subsystems
-
+## Computing Farkas certificates
 The files DTMC.py, DTMC_gurobi.py, MDP.py, MDP_gurobi.py implement both
-heuristic and exact subsystem computations.
+heuristic and exact computations.
 
 ## Benchmarking
 
 Functions to run benchmark instances can be found in benchmarking.py.
 Benchmarking results can be found in benchmark_runs.
-Functions to plot results are implemented in plotting.py, and examples of
-notebooks containing plots can be found in benchmarks/plot.ipynb and
-benchmark/experiments/experiments.ipynb
+
+## Experiments
+
+Functions to plot results are implemented in plotting.py.
+Notebooks with plots on experimental results can be found in
+
+experiments/experiments.ipynb
+
+and 
+
+plot.ipynb
+
