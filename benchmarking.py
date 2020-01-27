@@ -20,7 +20,7 @@ error_log_file="error.log"
 
 def write_header(csv_file_path,N):
     with open(csv_file_path,"w") as csv_file:
-        csv_file.write("tool,mode,threshold,t_wall,t_cpu,timeout,mc time,states,lower_bound,trans,prob,prob LP,heur_iter,info (total states:" + str(N) + ")\n")
+        csv_file.write("tool,mode,threshold,t_wall,t_cpu,timeout,mc time,states,lower_bound,trans,prob,prob LP,heur_iter,mem_max,info (total states:" + str(N) + ")\n")
 
 def l(something):
     if something == None:
@@ -28,10 +28,9 @@ def l(something):
     else:
         return str(something)
 
-def write_line(csv_file_path,tool=None,mode=None,thr=None,t_wall=None,t_cpu=None,timeout=None,mc_time=None,states=None,lower_bound=None,trans=None,prob=None,prob_lp=None,info=None,heur_iter=None):
+def write_line(csv_file_path,tool=None,mode=None,thr=None,t_wall=None,t_cpu=None,timeout=None,mc_time=None,states=None,lower_bound=None,trans=None,prob=None,prob_lp=None,info=None,heur_iter=None,mem_max=None):
     with open(csv_file_path,"a") as csv_file:
-        csv_file.write(l(tool) + "," + l(mode) + "," + l(thr) + "," + l(t_wall) + "," + l(t_cpu) + "," + l(timeout) + "," + l(mc_time) + "," + l(states) + "," + l(lower_bound) + "," + l(trans) + "," + l(prob) + "," + l(prob_lp) + "," + l(heur_iter) + "," + l(info) + "\n")
-
+        csv_file.write(l(tool) + "," + l(mode) + "," + l(thr) + "," + l(t_wall) + "," + l(t_cpu) + "," + l(timeout) + "," + l(mc_time) + "," + l(states) + "," + l(lower_bound) + "," + l(trans) + "," + l(prob) + "," + l(prob_lp) + "," + l(heur_iter) + "," + l(mem_max) + "," + l(info) + "\n")
 
 def handle_fark_res_y(P,initial,to_target,subsys_path,csv_file_path,thr,mode,gurobi_res,res_vec,t_wall,t_cpu,heur_iter,exact=False):
     if gurobi_res.feasible == False:

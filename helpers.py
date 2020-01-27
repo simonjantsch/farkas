@@ -1,6 +1,12 @@
 import re
 from dataclasses import dataclass
 
+def gtime_max_mem_regexp():
+    return re.compile("Maximum resident set size \(kbytes\): (\d+)")
+
+def gtime_avg_mem_regexp():
+    return re.compile("Average resident set size \(kbytes\): (\d+)")
+
 def states_by_label(label_file_path,label):
     state_set = set()
     mark_regexp = re.compile("([0-9]+)=\"" + label + "\"")

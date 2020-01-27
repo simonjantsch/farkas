@@ -3,6 +3,8 @@ from gurobipy import *
 from GurobiPython import *
 from helpers import *
 
+from memory_profiler import profile
+
 timeout = 10*60
 
 ## construct gurobi model and run lp
@@ -10,6 +12,7 @@ timeout = 10*60
 ## where feas=True signifies that a solution has been found
 ## and vec contains the solution vector
 
+@profile
 def run_gurobi(c,A_ub,rhs,find_optimum=False,rhs_multiplier=1):
     m = GurobiModel(c,A_ub,rhs)
     m2 = m.construct()
@@ -35,6 +38,7 @@ def run_gurobi(c,A_ub,rhs,find_optimum=False,rhs_multiplier=1):
 
     m2.write("model.lp")
     m2.printStats()
+
     m2.optimize()
 
     # save result into vector
@@ -89,7 +93,6 @@ def runlp_y_lb(N,initial,P,to_target,opt,thr,minimal):
 
     rhs[N] = -thr
     return run_gurobi(opt,A_ub,rhs,minimal,K)
-
 
 # Pr(s_0) ≥ thr?
 ##

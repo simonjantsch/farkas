@@ -4,7 +4,7 @@ set -x
 SCRIPT=$1
 DIR=$2
 
-ulimit -Sv $((100*1024*1024))
+ulimit -Sm $((100*1024*1024))
 CURRENT_DIR=$(pwd)
 cd $DIR
 mkdir "csv"
