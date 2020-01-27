@@ -6,15 +6,15 @@ import sys
 from benchmarking import *
 
 root_path="./"
-if len(sys.argv) > 0:
+if len(sys.argv) > 1:
     root_path = sys.argv[1]
 
 csv_root= "./csv/"
 comics_conf_file_path = "comics.conf"
 heur_iter_max = 5
 
-for i in [2,3,4,5]:
-    for j in [3,4,5,6,7,8]:
+for i in [2,3,4,5,6,7]:
+    for j in [3,4,5,6,7,8,9,10]:
         csv_file_path = csv_root + "crowds-" + str(i) + "-" + str(j) + ".csv"
 
         model_path = root_path + "dtmc_benchmarks/crowds_files/crowds-" + str(i) + "-" + str(j)

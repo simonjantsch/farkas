@@ -4,6 +4,8 @@ from GurobiPython import *
 from MDP import *
 from helpers import *
 
+from memory_profiler import profile
+
 timeout = 10*60
 
 ## construct gurobi model and run lp
@@ -19,6 +21,7 @@ def callback2(model,where):
 def run_gurobi(c,A_ub,rhs,find_optimum=False,rhs_multiplier=1,zero_vars=None,set_binary=None):
     return run_gurobi_with_cutoff(c,A_ub,rhs,find_optimum,rhs_multiplier,callback=None,zero_vars=zero_vars,set_binary=set_binary)
 
+@profile
 def run_gurobi_with_cutoff(c,A_ub,rhs,find_optimum=False,rhs_multiplier=1,callback=None,zero_vars=None,set_binary=None):
     m = GurobiModel(c,A_ub,rhs)
     m2 = m.construct()
