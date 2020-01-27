@@ -9,6 +9,10 @@ mkdir $BASE_DIR
 
 if [ $1 == "dtmc" ]
 then
+    mkdir -p "subsys/crowds"
+    mkdir -p "subsys/brp"
+    mkdir -p "subsys/leader"
+
     mkdir $BASE_DIR"crowds/"
     mkdir $BASE_DIR"leader/"
     mkdir $BASE_DIR"brp/"
@@ -20,16 +24,12 @@ fi
 
 if [ $1 == "mdp" ]
 then
+    mkdir -p "subsys/consensus"
+    mkdir -p "subsys/csma"
+
     mkdir $BASE_DIR"consensus/"
     mkdir $BASE_DIR"csma/"
 
     nohup taskset -c 0-3 ./run.sh bench_consensus.py $BASE_DIR"consensus/" &
     nohup taskset -c 4-7 ./run.sh bench_csma.py $BASE_DIR"csma/" &
 fi
-
-if [ $1 == "other" ]
-then
-    mkdir $BASE_DIR"consensus/"
-    
-    nohup taskset -c 0-3 ./run.sh bench_consensus.py $BASE_DIR"consensus/" &
-fi    

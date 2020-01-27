@@ -6,7 +6,7 @@ import tempfile
 timeout=10*60
 
 def prism_path():
-    return "/Users/simon/devel/prism-farkas/prism/bin/prism"
+    return "/home/jantsch/prism/prism/bin/prism"
 
 def result_regexp():
     return re.compile("Result: ([+-]?(\d+(\.\d*)?|\.\d+)([eE][+-]?\d+)?)")

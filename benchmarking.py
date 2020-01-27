@@ -252,7 +252,9 @@ def run_comics(model_path,csv_file_path,thr):
     rel_path_conf = os.path.relpath(comics_conf_file.name)
     comics.write_comics_conf(rel_path_conf,os.path.relpath(model_path + ".dtmc"),"global",thr)
     try:
-        print((subprocess.check_output([comics_path,rel_path_conf],timeout=timeout)).decode("utf-8"))
+        comics_output = subprocess.check_output(["/usr/bin/time","-v",comics_path,rel_path_conf],
+                                                timeout=timeout,
+                                                stderr=subprocess.STDOUT)
     except subprocess.TimeoutExpired:
         write_line(csv_file_path,tool="comics",mode="global",thr=thr,timeout=True)
     except subprocess.CalledProcessError as e:
@@ -278,7 +280,11 @@ def run_comics(model_path,csv_file_path,thr):
                         print(line)
                         error_file.write(line)
         else:
-            write_line(csv_file_path,tool="comics",mode="global",thr=thr,t_wall=ce_time,states=states,prob=sub_prob)
+            comics_output_string = comics_output.decode("utf-8")
+            mem_max_res = re.search(gtime_max_mem_regexp(),comics_output_string)
+            if mem_max_res:
+                mem_max = float(mem_max_res.group(1)) / 1024
+            write_line(csv_file_path,tool="comics",mode="global",thr=thr,t_wall=ce_time,states=states,prob=sub_prob,mem_max=mem_max)
             os.remove("counter_example_summary.txt")
 
     # run comics with local search strategy
@@ -288,7 +294,9 @@ def run_comics(model_path,csv_file_path,thr):
         with open(rel_path_conf) as conf_file:
             for line in conf_file:
                 print(line)
-        subprocess.check_output([comics_path,rel_path_conf],timeout=timeout)
+        comics_output = subprocess.check_output(["/usr/bin/time","-v",comics_path,rel_path_conf],
+                                                timeout=timeout,
+                                                stderr=subprocess.STDOUT)
     except subprocess.TimeoutExpired:
         write_line(csv_file_path,tool="comics",mode="local",thr=thr,timeout=True)
     except subprocess.CalledProcessError as e:
@@ -314,5 +322,9 @@ def run_comics(model_path,csv_file_path,thr):
                         print(line)
                         error_file.write(line)
         else:
-            write_line(csv_file_path,tool="comics",mode="local",thr=thr,t_wall=ce_time,states=states,prob=sub_prob)
+            comics_output_string = comics_output.decode("utf-8")
+            mem_max_res = re.search(gtime_max_mem_regexp(),comics_output_string)
+            if mem_max_res:
+                mem_max = float(mem_max_res.group(1)) / 1024
+            write_line(csv_file_path,tool="comics",mode="local",thr=thr,t_wall=ce_time,states=states,prob=sub_prob,mem_max=mem_max)
             os.remove("counter_example_summary.txt")
