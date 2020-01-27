@@ -250,8 +250,8 @@ def run_comics(model_path,csv_file_path,thr):
 
     # run comics with global search strategy
     comics_conf_file = tempfile.NamedTemporaryFile()
-    comics.write_comics_conf(comics_conf_file.name,os.path.relpath(model_path + ".dtmc"),"global",thr)
     rel_path_conf = os.path.relpath(comics_conf_file.name)
+    comics.write_comics_conf(rel_path_conf,os.path.relpath(model_path + ".dtmc"),"global",thr)
     try:
         print((subprocess.check_output([comics_path,rel_path_conf],timeout=timeout)).decode("utf-8"))
     except subprocess.TimeoutExpired:
