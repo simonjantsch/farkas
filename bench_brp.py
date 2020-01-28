@@ -13,7 +13,7 @@ csv_root= "./csv/"
 
 heur_iter_max = 5
 
-for i in [32,64,128,512,1024]:
+for i in [512,1024,2048]:
     for j in [2]:
         csv_file_path = csv_root + "brp-" + str(i) + "-" + str(j) + ".csv"
 

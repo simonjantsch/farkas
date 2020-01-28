@@ -6,7 +6,7 @@ import sys
 from benchmarking import *
 
 root_path="./"
-if len(sys.argv) > 0:
+if len(sys.argv) > 1:
     root_path = sys.argv[1]
 
 csv_root= "./csv/"
@@ -21,6 +21,10 @@ for i in [2,3]:
         csv_file_path = csv_root + "csma-" + str(i) + "-" + str(j) + ".csv"
 
         model_path = root_path + "mdp_benchmarks/csma_files/csma-" + str(i) + "-" + str(j)
+
+        if not os.path.isfile(model_path + ".tra"):
+            continue
+
         N,A,P,initial,to_target,enabled_actions = mdp.load_model(model_path,"all_delivered")
 
         write_header(csv_file_path,N)

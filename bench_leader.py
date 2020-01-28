@@ -6,7 +6,7 @@ import sys
 from benchmarking import *
 
 root_path="./"
-if len(sys.argv) > 0:
+if len(sys.argv) > 1:
     root_path = sys.argv[1]
 
 csv_root= "./csv/"

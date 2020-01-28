@@ -7,7 +7,7 @@ import os.path
 
 crowds_instances = set()
 for i in [2,3,4,5]:
-    for j in [3,4,5,6,7,8]:
+    for j in [3,4,5,6,7,8,9,10,11,12]:
         crowds_instances.add("dtmc_benchmarks/crowds_files/crowds-" + str(i) + "-" + str(j))
 
 leader_instances = set()
@@ -16,12 +16,12 @@ for i in [3,4,5,6,8]:
         leader_instances.add("dtmc_benchmarks/leader_files/leader-" + str(i) + "-" + str(j))
 
 brp_instances = set()
-for i in [32,64,128,512]:
+for i in [32,64,128,512,1024,2048]:
     for j in [2,3,4]:
         brp_instances.add("dtmc_benchmarks/brp_files/brp-" + str(i) + "-" + str(j))
 
 def build_comics_models():
-    for instance_set,target_label in [(brp_instances,"uncertain")]: #[(crowds_instances,"bad"),(leader_instances,"elected"),(brp_instances,"uncertain")]:
+    for instance_set,target_label in [(crowds_instances,"bad"),(leader_instances,"elected"),(brp_instances,"uncertain")]:
         for instance in instance_set:
             tra_path = instance + ".tra"
             lab_path = instance + ".lab"

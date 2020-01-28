@@ -13,8 +13,10 @@ csv_root= "./csv/"
 comics_conf_file_path = "comics.conf"
 heur_iter_max = 5
 
-for i in [2,3,4,5,6,7]:
-    for j in [3,4,5,6,7,8,9,10]:
+for i in [2,5]:
+    for j in [8,9,10,11,12]:
+        if (i == 2) and (j > 8):
+            continue
         csv_file_path = csv_root + "crowds-" + str(i) + "-" + str(j) + ".csv"
 
         model_path = root_path + "dtmc_benchmarks/crowds_files/crowds-" + str(i) + "-" + str(j)
