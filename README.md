@@ -12,9 +12,7 @@ python interface needs to be set up.
 
 ## Building models
 
-The models that we use for benchmarks can be found in the directories
-dtmc_benchmarks and mdp_benchmarks.
-They have been constructed by running the gen_model_files.sh script.
+The models that we use for benchmarks can be build using the ./gen\_model\_files.sh script.
 
 ## Computing Farkas certificates
 The files DTMC.py, DTMC_gurobi.py, MDP.py, MDP_gurobi.py implement both
