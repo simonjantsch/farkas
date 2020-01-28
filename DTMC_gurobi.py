@@ -5,7 +5,7 @@ from helpers import *
 
 from memory_profiler import profile
 
-timeout = 10*60
+timeout = 30*60
 
 ## construct gurobi model and run lp
 ## returns feas, vec
