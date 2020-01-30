@@ -13,10 +13,14 @@ csv_root= "./csv/"
 comics_conf_file_path = "comics.conf"
 heur_iter_max = 5
 
+exact = True
+
 for i in [2,5]:
     for j in [8,9,10,11,12]:
         if (i == 2) and (j > 8):
             continue
+        if (i == 5) and (j > 8):
+            exact = False
         csv_file_path = csv_root + "crowds-" + str(i) + "-" + str(j) + ".csv"
 
         model_path = root_path + "dtmc_benchmarks/crowds_files/crowds-" + str(i) + "-" + str(j)
@@ -34,7 +38,7 @@ for i in [2,5]:
 
         while feasible and thr <= 1:
             subsys_path = root_path + "subsys/crowds/crowds-" + str(i) + "-" + str(j) + "-subsys-" + str(thr)
-            feasible = run_instance_dtmc(csv_file_path,subsys_path,N,P,initial,to_target,opt,thr,heur_iter_max)
+            feasible = run_instance_dtmc(csv_file_path,subsys_path,N,P,initial,to_target,opt,thr,heur_iter_max,exact)
             if feasible:
                 run_comics(model_path,csv_file_path,thr)
                 thr += 0.01

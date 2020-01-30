@@ -31,7 +31,7 @@ for i in [3,4,5,6,8]:
 
         while feasible and thr <= 1:
             subsys_path = root_path + "subsys/leader/leader-" + str(i) + "-" + str(j) + "-subsys-" + str(thr)
-            feasible = run_instance_dtmc(csv_file_path,subsys_path,N,P,initial,to_target,opt,thr,heur_iter_max)
+            feasible = run_instance_dtmc(csv_file_path,subsys_path,N,P,initial,to_target,opt,thr,heur_iter_max,True)
             if feasible:
                 run_comics(model_path,csv_file_path,thr)
                 thr += 0.2

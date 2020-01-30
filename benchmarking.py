@@ -72,7 +72,7 @@ def handle_fark_res_z(P,initial,to_target,subsys_path,csv_file_path,thr,mode,gur
     write_line(csv_file_path,tool="fark",mode=mode,thr=thr,t_wall=t_wall.elapsed,t_cpu=t_cpu.elapsed,timeout=gurobi_res.timeout,states=size,lower_bound=lower_bound,prob=subsys_prob_prism,prob_lp=prob,heur_iter=heur_iter)
     return True
 
-def run_instance_dtmc(csv_file_path,subsys_path,N,P,initial,to_target,opt,thr,heur_iter_max):
+def run_instance_dtmc(csv_file_path,subsys_path,N,P,initial,to_target,opt,thr,heur_iter_max,exact):
 
     t_wall = TicToc()
     t_cpu = TicToc(method='process_time')
@@ -106,28 +106,29 @@ def run_instance_dtmc(csv_file_path,subsys_path,N,P,initial,to_target,opt,thr,he
 
     ## compute minimal witnesses
 
-    ## compute and write csv line for y_form exact
-    t_wall.tic()
-    t_cpu.tic()
-    gr_y_ex,res_y_ex = dtmc_gurobi.compute_minimal_y(N,initial,P,to_target,opt,thr)
-    t_wall.toc()
-    t_cpu.toc()
+    if exact:
+        ## compute and write csv line for y_form exact
+        t_wall.tic()
+        t_cpu.tic()
+        gr_y_ex,res_y_ex = dtmc_gurobi.compute_minimal_y(N,initial,P,to_target,opt,thr)
+        t_wall.toc()
+        t_cpu.toc()
 
-    feasible = handle_fark_res_y(P,initial,to_target,subsys_path,csv_file_path,thr,"y exact",gr_y_ex,res_y_ex,t_wall,t_cpu,None,exact=True)
+        feasible = handle_fark_res_y(P,initial,to_target,subsys_path,csv_file_path,thr,"y exact",gr_y_ex,res_y_ex,t_wall,t_cpu,None,exact=True)
 
-    if feasible == False:
-        return False
+        if feasible == False:
+            return False
 
-    ## compute and write csv line for z_form exact
-    t_wall.tic()
-    t_cpu.tic()
-    gr_z_ex,res_z_ex = dtmc_gurobi.compute_minimal_z(N,initial,P,to_target,opt,thr)
-    t_wall.toc()
-    t_cpu.toc()
+        ## compute and write csv line for z_form exact
+        t_wall.tic()
+        t_cpu.tic()
+        gr_z_ex,res_z_ex = dtmc_gurobi.compute_minimal_z(N,initial,P,to_target,opt,thr)
+        t_wall.toc()
+        t_cpu.toc()
 
-    feasible = handle_fark_res_z(P,initial,to_target,subsys_path,csv_file_path,thr,"z exact",gr_z_ex,res_z_ex,t_wall,t_cpu,None,exact=True)
-    if feasible == False:
-        return False
+        feasible = handle_fark_res_z(P,initial,to_target,subsys_path,csv_file_path,thr,"z exact",gr_z_ex,res_z_ex,t_wall,t_cpu,None,exact=True)
+        if feasible == False:
+            return False
 
     return True
 
