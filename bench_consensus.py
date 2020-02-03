@@ -10,13 +10,13 @@ if len(sys.argv) > 1:
     root_path = sys.argv[1]
 
 csv_root= "./csv/"
-heur_iter_max = 5
+heur_iter_max = 2
 
 precondition_satisfied = True
-for i in [2,4]:
+for i in [2]:
     if not precondition_satisfied:
         break
-    for j in [2,4]:
+    for j in [4]:
         csv_file_path = csv_root + "consensus-" + str(i) + "-" + str(j) + ".csv"
 
         model_path = root_path + "mdp_benchmarks/consensus_files/consensus-" + str(i) + "-" + str(j)
@@ -43,11 +43,11 @@ for i in [2,4]:
             feasible = run_instance_mdp_prmax(csv_file_path,subsys_path_prmax,N,A,P,initial,to_target,opt_prmax,thr,enabled_actions,heur_iter_max)
             if feasible:
                 run_ltlsubsys_min_prmax(csv_file_path,subsys_path_prmax,N,A,P,initial,to_target,opt_prmax,thr,enabled_actions)
-            thr += 0.2
+            thr += 0.1
 
         feasible = True
         thr = 0.1
         while feasible and thr <= 1:
             subsys_path_prmin = root_path + "subsys/consensus/consensus-prmin-" + str(i) + "-" + str(j) + "-subsys-" + str(thr)
             feasible = run_instance_mdp_prmin(csv_file_path,subsys_path_prmin,N,A,P,initial,to_target,opt_prmin,thr,enabled_actions,heur_iter_max)
-            thr += 0.2
+            thr += 0.1
