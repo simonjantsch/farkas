@@ -2,15 +2,15 @@
 
 ## brp-512-2
 
-benchmark_runs/0510_1227_succ_DTMC_run
+benchmark_runs/3101_1523dtmc
 
 ## crowds-2-8
 
-benchmark_runs/0510_1227_succ_DTMC_run
+benchmark_runs/3101_1523dtmc
 
 ## crowds-5-8
 
-benchmark_runs/0510_1227_succ_DTMC_run
+benchmark_runs/3101_1523dtmc
 
 ## consensus-2-4
 

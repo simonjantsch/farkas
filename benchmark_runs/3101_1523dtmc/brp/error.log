@@ -1,0 +1,462 @@
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.1e-05
+Model Checking result of original system: 2.61081e-05
+Time for model checking: 1.63381 secs
+Time of counter example computation: 153.52 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.2e-05
+Model Checking result of original system: 2.61081e-05
+Time for model checking: 1.63851 secs
+Time of counter example computation: 149.714 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.3e-05
+Model Checking result of original system: 2.61081e-05
+Time for model checking: 1.63645 secs
+Time of counter example computation: 135.708 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.4e-05
+Model Checking result of original system: 2.61081e-05
+Time for model checking: 1.62877 secs
+Time of counter example computation: 135.781 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.5e-05
+Model Checking result of original system: 2.61081e-05
+Time for model checking: 1.62497 secs
+Time of counter example computation: 154.598 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpceypyj79
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/brp_files/brp-512-2.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 2.6e-05
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 21510
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Command terminated by signal 6
+	Command being timed: "/home/jantsch/comics-1.0/comics ../../../../../../tmp/tmpceypyj79"
+	User time (seconds): 704.05
+	System time (seconds): 55.79
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:39.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 101282456
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25658494
+	Voluntary context switches: 1
+	Involuntary context switches: 1544
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Warning: comics counter_example_summary.txt could not be parsed!---------------------------------
+----------- STATISTICS ----------
+---------------------------------
+Task: Counterexample for P(t)<2.6e-05
+Model Checking result of original system: 2.61081e-05
+Time for model checking: 1.61919 secs
+Time of counter example computation: 150.484 secs [Without Pre-/Post processing]
+Search params: CONCRETE, LOCAL, CLOSURE-based
+Base node selection for concretization: Select All Visible
+Additional selection criterion: None
+Number of concretizations per step: 1
+During the 0 refinement steps the following number of shortest paths/closures were computed:
+-----------------------------------------------
+  step |      #paths |  #closures | #conc. scc
+-----------------------------------------------
+-----------------------------------------------
+Total #paths: 0, total #closures: 0, total #concretized SCCs: 0
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpdv51g826
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/brp_files/brp-1024-2.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 1.7e-05
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 43014
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Command terminated by signal 6
+	Command being timed: "/home/jantsch/comics-1.0/comics ../../../../../../tmp/tmpdv51g826"
+	User time (seconds): 587.21
+	System time (seconds): 55.40
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:42.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 100015328
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25579663
+	Voluntary context switches: 1
+	Involuntary context switches: 805
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmptsfigxn9
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/brp_files/brp-1024-2.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 1.8e-05
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 43014
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Command terminated by signal 6
+	Command being timed: "/home/jantsch/comics-1.0/comics ../../../../../../tmp/tmptsfigxn9"
+	User time (seconds): 564.06
+	System time (seconds): 46.93
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:11.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 100015376
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25579663
+	Voluntary context switches: 1
+	Involuntary context switches: 1278
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpp9br6sve
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/brp_files/brp-1024-2.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 1.9e-05
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 43014
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Command terminated by signal 6
+	Command being timed: "/home/jantsch/comics-1.0/comics ../../../../../../tmp/tmpp9br6sve"
+	User time (seconds): 553.42
+	System time (seconds): 54.37
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:07.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 100015352
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25579663
+	Voluntary context switches: 1
+	Involuntary context switches: 1248
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpjg4648ry
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/brp_files/brp-1024-2.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 2e-05
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 43014
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Command terminated by signal 6
+	Command being timed: "/home/jantsch/comics-1.0/comics ../../../../../../tmp/tmpjg4648ry"
+	User time (seconds): 517.03
+	System time (seconds): 52.85
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:29.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 100015356
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25579664
+	Voluntary context switches: 1
+	Involuntary context switches: 713
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpjg_0i_7y
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/brp_files/brp-1024-2.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 2.1e-05
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 43014
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Command terminated by signal 6
+	Command being timed: "/home/jantsch/comics-1.0/comics ../../../../../../tmp/tmpjg_0i_7y"
+	User time (seconds): 692.89
+	System time (seconds): 53.69
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:26.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 100015432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25579663
+	Voluntary context switches: 1
+	Involuntary context switches: 1639
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpkya1kklo
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/brp_files/brp-1024-2.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 2.2e-05
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 43014
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Command terminated by signal 6
+	Command being timed: "/home/jantsch/comics-1.0/comics ../../../../../../tmp/tmpkya1kklo"
+	User time (seconds): 573.22
+	System time (seconds): 53.18
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:26.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 100015320
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25579663
+	Voluntary context switches: 1
+	Involuntary context switches: 785
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmp2mopt2lv
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/brp_files/brp-1024-2.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 2.3e-05
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 43014
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Command terminated by signal 6
+	Command being timed: "/home/jantsch/comics-1.0/comics ../../../../../../tmp/tmp2mopt2lv"
+	User time (seconds): 522.86
+	System time (seconds): 45.35
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:28.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 100015408
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25579664
+	Voluntary context switches: 1
+	Involuntary context switches: 714
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmpsn52dji3
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/brp_files/brp-1024-2.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 2.4e-05
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 43014
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Command terminated by signal 6
+	Command being timed: "/home/jantsch/comics-1.0/comics ../../../../../../tmp/tmpsn52dji3"
+	User time (seconds): 522.75
+	System time (seconds): 55.15
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:37.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 100015404
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25579663
+	Voluntary context switches: 1
+	Involuntary context switches: 1258
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Info: [IOWrapper] Will parse ../../../../../../tmp/tmp9e_2x7vw
+Info: [IOWrapper] Expecting multi file input...
+Info: [IOWrapper] Expecting DTMC in ../../../dtmc_benchmarks/brp_files/brp-1024-2.dtmc
+Info: [IOWrapper] Task: Compute counter example for probability bound 2.5e-05
+Info: [IOWrapper] Next task: Counter Example [Global = 1, Abstract = 0, Concretization Mode = 1, State Selection Mode = Select All Visible, Filter Mode = None]
+Info: [IOWrapper] Iterations: 1, Stepsize: 4294967295
+Info: [CexGen] Will now generate counter example...
+Info: [CexGen] Will search on concrete system
+Info: [CexGen] Will use *global* search to generate counter example
+Info: [CexGen] Will search counter example to 43014
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Command terminated by signal 6
+	Command being timed: "/home/jantsch/comics-1.0/comics ../../../../../../tmp/tmp9e_2x7vw"
+	User time (seconds): 523.72
+	System time (seconds): 49.16
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:32.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 100015256
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25579663
+	Voluntary context switches: 1
+	Involuntary context switches: 1260
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
