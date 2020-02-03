@@ -12,7 +12,7 @@ timeout = 30*60
 ## where feas=True signifies that a solution has been found
 ## and vec contains the solution vector
 
-@profile
+#@profile
 def run_gurobi(c,A_ub,rhs,find_optimum=False,rhs_multiplier=1):
     m = GurobiModel(c,A_ub,rhs)
     m2 = m.construct()
