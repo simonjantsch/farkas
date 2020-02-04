@@ -3,7 +3,7 @@ for reachability constraints in Markov decision processes.
 
 ## Preconditions
 * The Gurobi Solver needs to be installed (https://www.gurobi.com/) and its
-python interface needs to be set up.
+python interface needs to be set up (version 8.1.1 was used for the experiments in benchmark_runs).
 * To build models and validate subsystems, Prism needs to be installed 
 (http://www.prismmodelchecker.org/), and prism-benchmarks
 (https://github.com/prismmodelchecker/prism-benchmarks) need to be checked-out.
